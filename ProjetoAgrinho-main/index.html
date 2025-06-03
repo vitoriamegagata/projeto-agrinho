@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejo Conectado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Festejo Conectado</h1>
+    <p>Campo e Cidade em Harmonia</p>
+  </header>
+
+  <section class="intro">
+    <p>
+      Celebramos a união entre o campo e a cidade com turismo, produção, sabores e cultura! 🌽🏙️
+    </p>
+  </section>
+
+  <section class="cards">
+  <a href="sabores.html" class="card">
+    <div class="card-content"></div>
+    <img src="" alt="Comida Típica">
+    <h2>Sabores da Terra</h2>
+    <p>Festas típicas que unem tradições urbanas e rurais.</p>
+  </a>
+
+  <a href="turismo.html" class="card">
+    <img src="" alt="Turismo Rural">
+    <h2>Encantos do Percurso</h2>
+    <p>Experiências que ficam na memória!</p>
+  </a>
+
+  <a href="feira.html" class="card">
+    <img src="" alt="Feira Rural">
+    <h2>Feiras e Conexões</h2>
+    <p>Produtores locais presentes nas feiras urbanas.</p>
+  </a>
+
+  <a href="animais.html" class="card">
+    <img src="" alt="Animais do Campo">
+    <h2>Pegadas da Terra</h2>
+    <p>A criação de animais que une tradição e inovação!</p>
+  </a>
+
+  <a href="agricultura.html" class="card">
+    <img src="" alt="Agricultura Familiar">
+    <h2>Sementes da Família</h2>
+    <p>Alimentos do campo enriquecem a mesa da cidade!</p>
+  </a>
+
+  <a href="cultura.html" class="card">
+    <img src="" alt="Cultura Local">
+    <h2>Raízes e Expressões</h2>
+    <p>Das nossas origens aos nossos dias.</p>
+  </a>
+</section>
+
+<footer class="rodape-centralizado">
+  <img src="agrinho/logo parana.png" alt="Logo Governo do Paraná" class="logo-parana-esquerda">
+  <p>🌾 Desenvolvido por alunos do 3º ano - Concurso Paraná 2025 🌆</p>
+</footer>
+
+</body>
+
+<script>
+  function alterarFonte(tamanho) {
+    const body = document.querySelector('body');
+    const atual = parseFloat(getComputedStyle(body).fontSize);
+    body.style.fontSize = (atual + tamanho) + 'px';
+  }
+</script>
