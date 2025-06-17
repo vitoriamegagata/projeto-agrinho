@@ -7,7 +7,7 @@
 
 body {
   background: linear-gradient(#e0ffe0, #f0f0ff);
-  color: #333;
+  color: #140404;
 }
 
 a {
@@ -18,9 +18,9 @@ a {
 header {
   text-align: center;
   padding: 40px;
-  background: #3a6b35;
+  background: #e67d5d;
   color: white;
-  border-bottom: 10px solid #d9a441;
+  border-bottom: 10px solid #419cd9;
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header p {
   text-align: center;
   padding: 30px;
   font-size: 1.2em;
-  background-color: #fff8dc;
+  background-color: #dcfff7;
 }
 
 .cards {
@@ -57,12 +57,12 @@ header p {
   padding: 20px;
   transition: all 0.3s ease;
   display: block;
-  color: #3a6b35;
+  color: #45356b;
 }
 
 /* Quando passa o mouse no card inteiro */
 .card:hover {
-  background-color: #3a6b35;
+  background-color: #a74bbe;
   color: white;
 }
 
@@ -85,7 +85,7 @@ header p {
 }
 
 footer {
-  background: #3a6b35;
+  background: #24100b;
   color: white;
   text-align: center;
   padding: 20px;
@@ -93,7 +93,7 @@ footer {
 }
 .rodape-centralizado {
   position: relative;
-  background: #3a6b35;
+  background: #60d3c0;
   color: white;
   text-align: center;
   padding: 20px 40px;
@@ -123,7 +123,7 @@ footer {
 .acessibilidade button {
   font-size: 1em;
   padding: 6px 12px;
-  background-color: #3a6b35;
+  background-color: #7d5fa5;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -131,7 +131,7 @@ footer {
 }
 
 .acessibilidade button:hover {
-  background-color: #2e4f29;
+  background-color: #64abda;
 }
 .descricao h2 {
   margin-bottom: 30px;
@@ -178,4 +178,50 @@ main {
 .descricao h2 {
   margin-left: 30px;
 
+}
+.acessibilidade {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #9664d6;
+}
+
+.acessibilidade button {
+  font-size: 1em;
+  padding: 6px 12px;
+  background-color: #283e69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* espaço entre os cards */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
